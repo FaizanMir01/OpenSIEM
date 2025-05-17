@@ -1,17 +1,17 @@
-OpenSIEM:A Unified Open Source Security Management FrameworK
+# OpenSIEM:A Unified Open Source Security Management FrameworK
 
 
-Project Overview
+## Project Overview
 openSIEM is an open-source Security Information and Event Management (SIEM) solution that integrates best-in-class security tools to provide comprehensive monitoring, detection, alerting, and incident response capabilities. This project aims to make enterprise-grade security monitoring accessible to organizations of all sizes.
-Core Components
 
-Wazuh: Security monitoring, threat detection and incident response
-TheHive: Security incident response platform and case management
-Shuffle: Security automation and orchestration
-Elasticsearch: Search and analytics engine for security data
-Cassandra: NoSQL database for TheHive
+### Core Components
+1. Wazuh: Security monitoring, threat detection and incident response
+2. TheHive: Security incident response platform and case management
+3. Shuffle: Security automation and orchestration
+4. Elasticsearch: Search and analytics engine for security data
+5. Cassandra: NoSQL database for TheHive
 
-Architecture
+### Architecture
 The openSIEM architecture follows a modular design with the following data flow:
 
 Event Collection: Security events from Windows/Linux clients with Wazuh Agents
@@ -21,7 +21,7 @@ Case Management: Incident tracking and response in TheHive
 Automation: Orchestrated response via Shuffle
 Analyst Interface: SOC analyst dashboards and notification systems
 
-Quick Start
+## Quick Start
 Prerequisites
 
 Ubuntu 20.04 LTS or later
@@ -38,7 +38,7 @@ Basic Installation
 
 Clone this repository:
 
-bashgit clone https://github.com/yourusername/openSIEM.git
+bashgit clone https://github.com/FaizanMir01/openSIEM.git
 cd openSIEM
 
 Run the prerequisites installer:
