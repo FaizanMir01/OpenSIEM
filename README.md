@@ -1,6 +1,6 @@
 # OpenSIEM:A Unified Open Source Security Management FrameworK
 
-
+<img src="banner_image.svg">
 ## Project Overview
 openSIEM is an open-source Security Information and Event Management (SIEM) solution that integrates best-in-class security tools to provide comprehensive monitoring, detection, alerting, and incident response capabilities. This project aims to make enterprise-grade security monitoring accessible to organizations of all sizes.
 
